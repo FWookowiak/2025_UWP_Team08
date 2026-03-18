@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41f4f43c70cf64942b6af159fbf946e2, type: 3}
-  m_Name: Tier1WaveData
+  m_Name: Round2
   m_EditorClassIdentifier: Assembly-CSharp::WaveData
-  enemyPrefab: {fileID: 0}
-  count: 0
-  spawnInterval: 1
-  delayBeforeNextGroup: 0
+  waveGroup:
+  - {fileID: 11400000, guid: e3765cdd57ef2a4428df657d0ac0ed38, type: 2}
+  - {fileID: 11400000, guid: e3765cdd57ef2a4428df657d0ac0ed38, type: 2}
+  - {fileID: 11400000, guid: 214b41342e2aa8746b7cc4be5595c4ae, type: 2}
